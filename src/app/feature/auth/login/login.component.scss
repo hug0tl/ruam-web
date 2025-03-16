@@ -1,0 +1,104 @@
+body {
+  background: linear-gradient(to bottom, #d4e1ff, #fde2e4);
+  //background: linear-gradient(to bottom,  #fcbc84, var(--orange-uam));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+/* Contenedor del login */
+.login-container {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--orange-uam);
+  margin-bottom: 5px;
+}
+
+/* Icono del logo */
+.logo-icon {
+  width: 40px;
+  height: 20px;
+  background-color: var(--orange-uam);
+  margin: 0 auto 20px;
+  border-radius: 50px;
+}
+
+/* Estilos del formulario */
+.login-form label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: #b36200;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b36200;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Contenedor de la contraseña */
+.password-container {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Botón de inicio de sesión */
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #f27c04;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #cc7000;
+}
+
+/* Botones secundarios */
+.links {
+  margin-top: 15px;
+}
+
+.create-account, .reset-password {
+  background: #f27c04;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.create-account:hover, .reset-password:hover {
+  background: #cc7000;
+}
